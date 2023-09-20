@@ -1,0 +1,6 @@
+@echo off
+echo Starting server please wait...
+cd %~dp0env\condabin\
+call activate.bat
+micromamba activate %~dp0env\envs\envbase
+
